@@ -1,0 +1,11 @@
+
+        QByteArray CurrentFile;
+        QFile file(CurrentFile);
+        file.open(stderr, QIODevice::ReadWrite); 				// open for read and write
+        CurrentFile = file.readAll(); 							// read all the data into the byte array
+        QString text(CurrentFile);								// add to text string for easy string replace
+
+        text.replace(QString("passmark"), QString("notch")); 	// replace text in string
+
+        file.seek(0); 											// go to the beginning of the file
+        file.write(text.toUtf8()); 								// write the new text back to the file

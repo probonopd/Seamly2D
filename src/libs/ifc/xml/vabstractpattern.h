@@ -262,10 +262,22 @@ public:
     static const QString AttrArrows;
     static const QString AttrNodeReverse;
     static const QString AttrNodeExcluded;
+<<<<<<< HEAD
+    static const QString AttrNodeNotch;
+    static const QString AttrNodeNotchLine;
+    static const QString AttrNodeNotchAngle;
+    static const QString AttrNodeShowSecondNotch;
+	
+=======
+>>>>>>> parent of 7c0add81e... Issue #183
     static const QString AttrNodePassmark;
     static const QString AttrNodePassmarkLine;
     static const QString AttrNodePassmarkAngle;
     static const QString AttrNodeShowSecondPassmark;
+<<<<<<< HEAD
+	
+=======
+>>>>>>> parent of 7c0add81e... Issue #183
     static const QString AttrSABefore;
     static const QString AttrSAAfter;
     static const QString AttrStart;

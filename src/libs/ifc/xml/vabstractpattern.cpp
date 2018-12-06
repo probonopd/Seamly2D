@@ -132,10 +132,24 @@ const QString VAbstractPattern::AttrTimeFormat        = QStringLiteral("timeForm
 const QString VAbstractPattern::AttrArrows            = QStringLiteral("arrows");
 const QString VAbstractPattern::AttrNodeReverse       = QStringLiteral("reverse");
 const QString VAbstractPattern::AttrNodeExcluded      = QStringLiteral("excluded");
+<<<<<<< HEAD
+
+const QString VAbstractPattern::AttrNodeNotch      	    = QStringLiteral("notch");
+const QString VAbstractPattern::AttrNodeNotchLine       = QStringLiteral("notchLine");
+const QString VAbstractPattern::AttrNodeNotchAngle      = QStringLiteral("notchAngle");
+const QString VAbstractPattern::AttrNodeShowSecondNotch = QStringLiteral("showSecondNotch");
+
+const QString VAbstractPattern::AttrNodePassmark   	  	   = QStringLiteral("notch");
+const QString VAbstractPattern::AttrNodePassmarkLine       = QStringLiteral("notchLine");
+const QString VAbstractPattern::AttrNodePassmarkAngle      = QStringLiteral("notchAngle");
+const QString VAbstractPattern::AttrNodeShowSecondPassmark = QStringLiteral("showSecondNotch");
+
+=======
 const QString VAbstractPattern::AttrNodePassmark      = QStringLiteral("passmark");
 const QString VAbstractPattern::AttrNodePassmarkLine  = QStringLiteral("passmarkLine");
 const QString VAbstractPattern::AttrNodePassmarkAngle = QStringLiteral("passmarkAngle");
 const QString VAbstractPattern::AttrNodeShowSecondPassmark = QStringLiteral("showSecondPassmark");
+>>>>>>> parent of 7c0add81e... Issue #183
 const QString VAbstractPattern::AttrSABefore          = QStringLiteral("before");
 const QString VAbstractPattern::AttrSAAfter           = QStringLiteral("after");
 const QString VAbstractPattern::AttrStart             = QStringLiteral("start");

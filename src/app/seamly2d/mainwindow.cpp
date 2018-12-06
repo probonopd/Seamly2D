@@ -249,6 +249,11 @@ MainWindow::MainWindow(QWidget *parent)
 
     QAction *actionOpenPattern = menu->addAction(tr("Open pattern"));
     actionOpenPattern->setMenuRole(QAction::NoRole);
+<<<<<<< HEAD
+		// QString text(fileData);
+		// text.replace(QString("passmark"), QString("notch")); 
+=======
+>>>>>>> parent of 7c0add81e... Issue #183
     connect(actionOpenPattern, &QAction::triggered, this, &MainWindow::Open);
 
     QAction *actionOpenSeamlyMe = menu->addAction(tr("Create/Edit measurements"));
