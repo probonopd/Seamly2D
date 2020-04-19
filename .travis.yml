@@ -18,7 +18,7 @@ script:
   - cp appdir/usr/share/pixmaps/seamly2d.png appdir/
   - wget -c -nv "https://github.com/probonopd/linuxdeployqt/releases/download/continuous/linuxdeployqt-continuous-x86_64.AppImage"
   - chmod a+x linuxdeployqt-continuous-x86_64.AppImage
-  - ./linuxdeployqt-continuous-x86_64.AppImage appdir/usr/share/applications/seamly2d.desktop -binary=appdir/usr/bin/seamlyme -extra-plugins=iconengines -appimage
+  - ./linuxdeployqt-continuous-x86_64.AppImage appdir/usr/share/applications/seamly2d.desktop -executable=appdir/usr/bin/seamlyme -extra-plugins=iconengines -appimage
 
 after_success:
   - wget -c https://github.com/probonopd/uploadtool/raw/master/upload.sh
